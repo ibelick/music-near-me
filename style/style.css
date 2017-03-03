@@ -1,0 +1,89 @@
+* {
+
+}
+
+body {
+  background: #FAF6FE;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.header {
+  padding: 3em;
+  text-align: center;
+}
+
+.wrapper-search {
+  max-width: 34em;
+  margin: 0 auto;
+}
+
+.cd_search {
+  margin-bottom: 2em;
+}
+
+.wrapper-search input {
+  background-color: white;
+  border: 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 12px;
+  height: 32px;
+  padding: 8px 40px 8px 12px;
+  width: 80%;
+}
+
+.wrapper-search input[type="text"] {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: black;
+}
+
+.wrapper-search .btn-xs {
+  border-color: #000;
+  color: #000;
+  background-color: black;
+  color: white;
+  border-width: .15rem;
+  border-style: solid;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  margin: 0;
+  text-align: center;
+  vertical-align: top;
+  -webkit-appearance: none;
+  width: 19%;
+}
+
+.wrapper-search .btn-xl {
+  border-color: #000;
+  color: #000;
+  background-color: transparent;
+  border-width: .15rem;
+  border-style: solid;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin: 0;
+  text-align: center;
+  padding: .25rem .5rem;
+  vertical-align: top;
+  -webkit-appearance: none;
+  width: 100%;
+  margin-bottom: 4em;
+}
+
+.wrapper-result {
+  margin-top: 3em;
+  max-width: 34em;
+  margin: 0 auto;
+}
+
+.artistInfo {
+  border: 1px solid red;
+}
